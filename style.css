@@ -4,7 +4,6 @@
 .container {
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid black;
   width: 1100px;
 }
 header {
@@ -45,7 +44,7 @@ h1 {
 .work {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: rgb(248, 243, 236);
+  background-color: rgb(207, 194, 174);
 }
 .work-information {
   margin: 0;
@@ -58,7 +57,7 @@ h1 {
 .ABILITYS {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: rgb(248, 243, 236);
+  background-color: rgb(221, 212, 199);
 }
 .ABILITYS-grid {
   display: flex;
@@ -89,7 +88,7 @@ h1 {
 .experiense {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: rgb(248, 243, 236);
+  background-color: rgb(224, 220, 213);
 }
 .experiense-grid {
   display: flex;
