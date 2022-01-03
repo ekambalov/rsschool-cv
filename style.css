@@ -5,7 +5,7 @@
   margin-left: auto;
   margin-right: auto;
   border: 2px solid black;
-  width: 1200px;
+  width: 1100px;
 }
 header {
   background-color: rgb(37, 37, 37);
@@ -178,4 +178,50 @@ footer {
   width: 80%;
   text-transform: uppercase;
   text-align: center;
+}
+@media (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .footer-grid {
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 760px;
+  }
+  .knowledge {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 780px) {
+  .container {
+    width: 560px;
+  }
+  .header-grid {
+    justify-content: center;
+  }
+  .user-information {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+  }
+  .education-grid {
+    justify-content: space-between;
+  }
+  .bakalavr {
+    text-align: right;
+  }
+  .magistry {
+    text-align: right;
+  }
+}
+@media (max-width: 590px) {
+  .container {
+    width: 95%;
+  }
+  .engineer-pic {
+    display: none;
+  }
 }
