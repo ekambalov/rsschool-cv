@@ -5,4 +5,4 @@
 5. You can watch my works here: https://testkambeg.ru/
 6. Energy engineer is my only work experiense. I'm working for 4 years.
 7. Graduated from BNTU in Minsk. I'm master of sciense.
-8. My english level is intermediate. I have language practice in Berlin during Была моўная практыка ў Берліне па праграме ERASMUS.
+8. My english level is intermediate. I have language practice in Berlin during ERASMUS program.
