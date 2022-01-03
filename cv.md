@@ -1,8 +1,8 @@
-1. Ягор Камбалаў;
-2. Кантакты для сувязі: telegram: @kambeg, discord: kambeg#2124;
-3. На сённяшні дзень працую інжынерам у сферы энергетыкі. Распрацоўваю алгарытмы для прылад рэлейнай засцярогі і тэсцірую іх жа. Вопыту працы прагрмістам няма, але матывацыя высокая, да таго на працы часта выконваю працу блізкую да мэнэджара праектаў, таму са сферай IT знаёмы;
-4. Я разумею прынцыпы па якім працуюць мовы ААП, але пэўнага досведу не маю. Знаёмы з асновамі CSS, HTML. Здольны падключаць і выкарыстоўваць пэўныя плагіны JS для вёрсткі;
-5. Мне складана паказаць менавіта прыклад коду, але прыклады працы можна паглядзець тут: https://testkambeg.ru/ ;
-6. Адзіны мой вопыт працы гэта інжынер па наладке і іспытам. Працую 4 гады. Напісаў навуковую працу, якую сёння выкарстоўваюць на практыцы для выяўлення аднафазных замыканняў на лініях, дзе раней гэта было складана выявіць. Пісаў алгарытм для праграмістаў.
-7. Скончыў БНТУ Энэргетычны факультэт. Там жа і скончыў магістратуру.
-8. Узровень англійскай мовы intermediate. Была моўная практыка ў Берліне па праграме ERASMUS.
+1. Jahor Kambalau.
+2. Contacts: telegram: @kambeg, discord: kambeg#2124;
+3. I'm energy engineer. I develop algorithms for relay protection devises and testing them. I haven't coder experiens, but I have strong motivation.
+4. I understand OOP principles. Know basic CSS, HTML. Can use JS plugins for web-pages.
+5. You can watch my works here: https://testkambeg.ru/
+6. Energy engineer is my only work experiense. I'm working for 4 years.
+7. Graduated from BNTU in Minsk. I'm master of sciense.
+8. My english level is intermediate. I have language practice in Berlin during Была моўная практыка ў Берліне па праграме ERASMUS.
