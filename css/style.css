@@ -269,7 +269,7 @@ body {
     flex-direction: column;
   }
 }
-@media (max-width: 930px) {
+@media (max-width: 460px) {
   .code {
     display: none;
   }
