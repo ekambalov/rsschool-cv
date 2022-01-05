@@ -4,129 +4,239 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV2</title>
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="style.css" />
+    <title>CV#3 ekambalov</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header>
-      <div class="container">
-        <div class="header-grid">
-          <img
-            class="user-avatar"
-            src="img/user-avatar.jpg"
-            alt="pic: user-avatar"
-          />
+    <div class="cv-list">
+      <header class="navbar">
+        <nav class="nav-grid">
+          <ul class="nav-list">
+            <li><a class="nav-item" href="#main"> main</a></li>
+            <li><a class="nav-item" href="#contacts">contacts</a></li>
+            <li><a class="nav-item" href="#about-me">about me</a></li>
+            <li><a class="nav-item" href="#experiense">experiense</a></li>
+            <li><a class="nav-item" href="#skills">skills</a></li>
+            <li><a class="nav-item" href="#education">education</a></li>
+            <li><a class="nav-item" href="#language">language</a></li>
+            <li><a class="nav-item" href="#code">code</a></li>
+            <li><a class="nav-item" href="#refrences">refrences</a></li>
+          </ul>
+          <!-- /.nav-list -->
+        </nav>
+        <!-- /.nav-grid -->
+      </header>
+      <!-- /.navbar -->
+      <div class="grid-container">
+        <main id="main" class="main">
+          <div class="container main-flex">
+            <img
+              class="user-avatar"
+              src="img/user-avatar.jpg"
+              alt="pic: user-avatar"
+            />
+            <h1 class="user-name">JAHOR KAMBALAU</h1>
+            <span class="user-status">power engineer</span>
+          </div>
+        </main>
+        <!-- /.main -->
+        <section id="contacts" class="contacts">
+          <div class="container">
+            <h2 class="section-title section-title--blue">Contacts:</h2>
+            <ul class="contacts-list">
+              <li class="contacts-item">
+                <img
+                  class="logo-tg"
+                  src="img/telegram-logo.png"
+                  alt="logo: telegram"
+                />
+                <a
+                  class="contacts-link"
+                  href="https://t.me/kambeg"
+                  target="_blank"
+                  >@kambeg</a
+                >
+              </li>
+              <li class="contacts-item">
+                <img
+                  class="logo-ds"
+                  src="img/discord logo.png"
+                  alt="logo: discord"
+                />
+                kambeg#2124
+              </li>
+              <li class="contacts-item">
+                <img
+                  src="img/location-pic.svg"
+                  alt="logo: location"
+                  class="logo-loc"
+                />
+                <a
+                  href="https://yandex.by/maps/-/CCUyJLxmkB"
+                  class="contacts-link"
+                  target="_blank"
+                  >Minsk</a
+                >
+              </li>
+              <li class="contacts-item">
+                <img src="img/web-pic.svg" alt="logo: web" class="web-logo" /><a
+                  href="https://testkambeg.ru/"
+                  class="contacts-link"
+                  target="_blank"
+                  >https://testkambeg.ru/</a
+                >
+              </li>
+            </ul>
+            <!-- /.contacts-list -->
+          </div>
+          <!-- /.container -->
+        </section>
+        <!-- /.contacts -->
 
-          <div class="user-information">
-            <h1>Jahor Kambalau</h1>
-            <div class="contacts">
-              <ul class="contacts-list">
-                <li class="contacts-item">
-                  Telegram:
-                  <a
-                    class="contacts-link"
-                    href="https://t.me/kambeg"
-                    target="_blank"
-                    >@kambeg</a
-                  >
-                </li>
-                <li class="contacts-item">Discord: kambeg#2124</li>
-                <li class="contacts-item">
-                  Location:
-                  <a
-                    href="https://yandex.by/maps/-/CCUyJLxmkB"
-                    class="contacts-link"
-                    target="_blank"
-                    >Minsk</a
-                  >
-                </li>
-              </ul>
+        <section id="about-me" class="about">
+          <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p class="about-info">
+              I'm power engineer. I develop algorithms for relay protection
+              devises and testing them. I haven't coder experiens, but I have
+              strong motivation.
+            </p>
+            <!-- /.about-info -->
+          </div>
+          <!-- /.container -->
+        </section>
+        <!-- /.about -->
+        <section id="experiense" class="experiense experiense--margin">
+          <div class="container">
+            <h2 class="section-title">Experiense</h2>
+            <p class="experiense-info">
+              Power engineering is my only work experiense. I'm working for 4
+              years.
+            </p>
+          </div>
+          <!-- /.container -->
+        </section>
+        <!-- /.experiense -->
+        <section id="education" class="education education--margin">
+          <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+              <div class="education-years">2014-2019</div>
+              <div class="bakalavr">
+                <h3 class="education-step">bachelor degree</h3>
+                <div class="education-info">speciality: relay protections</div>
+              </div>
+              <div class="education-years">2019-2021</div>
+              <div class="magistry">
+                <h3 class="education-step">magistracy</h3>
+                <div class="education-info">
+                  speciality: electrical power stations
+                </div>
+              </div>
             </div>
+            <!-- /.education-grid -->
           </div>
-        </div>
-        <!-- /.header-grid -->
-      </div>
-    </header>
-    <section class="work">
-      <div class="container">
-        <h2 class="work-information">
-          I'm energy engineer. I develop algorithms for relay protection devises
-          and testing them. I haven't coder experiens, but I have strong
-          motivation.
-        </h2>
-      </div>
-    </section>
-    <!-- /.work -->
-    <section class="ABILITYS">
-      <div class="container">
-        <div class="ABILITYS-grid">
-          <h2 class="ABILITYS-title">My abilitys</h2>
-          <div class="knowledge">
-            I understand OOP principles. Know basic CSS, HTML. Can use JS
-            plugins for web-pages.
+          <!-- /.container -->
+        </section>
+        <!-- /.education -->
+        <section id="code" class="code code--margin">
+          <div class="container">
+            <h2 class="section-title">Code example</h2>
+            <pre>
+            <code>
+    function century(year) {
+      year=String(year);
+      let centuryH;
+      let centuryY;
+      let l = year.length; 
+      if (l==1) {
+        year = "000"+year;
+      } else if (l==2) {
+        year = "00"+year;
+      } else if (l==3) {
+        year = "0"+year;
+      }
+      l = year.length; 
+      centuryH = year.slice(0,l-2);
+      centuryY = year.slice(l-2);
+      centuryH = Number(centuryH);
+      centuryY = Number(centuryY);
+      if (centuryY == 0) {
+        return centuryH;
+      } else {
+        return centuryH+1;
+      }
+    }
+            </code>
+          </pre>
           </div>
-          <div class="examples">
-            You can watch my works
-            <a href="https://testkambeg.ru/" class="example-link"> here: </a>
+          <!-- /.container -->
+        </section>
+        <!-- /.code -->
+        <section id="skills" class="skills">
+          <div class="container">
+            <h2 class="section-title section-title--blue">Skills</h2>
+            <ul class="skills-list">
+              <li class="skills-item">HTML</li>
+              <li class="skills-item">Inskape</li>
+              <li class="skills-item">CSS</li>
+              <li class="skills-item">Adobe Photoshop</li>
+              <li class="skills-item">MATLab</li>
+              <li class="skills-item">Adobe Illustrator</li>
+            </ul>
+            <!-- /.skills-list -->
           </div>
-        </div>
-        <!-- /.work-grid -->
-      </div>
-    </section>
-    <!-- /.ABILITYS -->
-    <section class="experiense">
-      <div class="container">
-        <div class="experiense-grid">
-          <h2 class="experiense-title">My experiense</h2>
-          <div class="knowledge">
-            Energy engineer is my only work experiense. I'm working for 4 years.
+          <!-- /.container -->
+        </section>
+        <!-- /.skills -->
+        <section id="language" class="language">
+          <div class="container">
+            <h2 class="section-title section-title--blue">Languages</h2>
+            <ul class="language-list">
+              <li class="language-item">English</li>
+              <li class="language-item">B1</li>
+              <li class="language-item">Belarussian</li>
+              <li class="language-item">Native</li>
+              <li class="language-item">Russian</li>
+              <li class="language-item">Native</li>
+            </ul>
+            <!-- /.skills-list -->
           </div>
-          <img
-            class="engineer-pic"
-            src="img/engineer-pic.jpg"
-            alt="pic: engineer"
-          />
-
-          <!-- /.work-grid -->
-        </div>
-      </div>
-    </section>
-    <!-- /.experiense -->
-    <section class="education">
-      <div class="container">
-        <h2 class="education-title">education</h2>
-        <div class="education-grid">
-          <div class="education-years">2014-2019</div>
-          <div class="bakalavr">
-            <h3 class="education-step">bachelor degree</h3>
-            <div class="education-info">speciality: relay protections</div>
-          </div>
-          <div class="education-years">2019-2021</div>
-          <div class="magistry">
-            <h3 class="education-step">magistracy</h3>
-            <div class="education-info">
-              speciality: electrical power stations
+          <!-- /.container -->
+        </section>
+        <!-- /.language -->
+        <footer id="refrences" class="refrences">
+          <div class="container">
+            <h2 class="section-title section-title--blue">Refrences</h2>
+            <div class="references-grid">
+              <a
+                href="https://github.com/ekambalov"
+                class="references-link"
+                target="_blank"
+                ><img
+                  src="./img/github-logo.png"
+                  alt="logo: github"
+                  class="github-logo"
+              /></a>
+              <a
+                href="https://rs.school/js-stage0/"
+                class="references-link"
+                target="_blank"
+                ><img
+                  src="./img/logo-rsschool3.png"
+                  alt="logo: RSSchool"
+                  class="rsschool-logo"
+              /></a>
             </div>
+            <span class="references-year">2022</span>
           </div>
-        </div>
-        <!-- /.education-grid -->
+          <!-- /.container -->
+        </footer>
+        <!-- /.Refrences -->
       </div>
-      <!-- /.container -->
-    </section>
-    <!-- /.education -->
-    <footer>
-      <div class="container">
-        <div class="footer-grid">
-          <img src="img/english-level.png" alt="" />
-          <h2 class="language-information">
-            My english level is intermediate. I have language practice in Berlin
-            during ERASMUS program.
-          </h2>
-        </div>
-        <!-- /.footer-grid -->
-      </div>
-      <!-- /.container -->
-    </footer>
+      <!-- /.grid-container -->
+    </div>
+    <!-- /.cv-list -->
   </body>
 </html>

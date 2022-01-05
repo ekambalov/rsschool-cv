@@ -1,0 +1,276 @@
+body {
+  background-color: #e5e5e5;
+  font-family: Open Sans;
+}
+.cv-list {
+  width: 900px;
+  background-color: #fff;
+  border: 1px solid grey;
+  margin: auto;
+  margin-top: 20px;
+}
+/* main style */
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 820px;
+  background-color: #063883;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  color: #fff;
+}
+.nav-list {
+  padding: 0;
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item {
+  text-decoration: none;
+  color: inherit;
+}
+/* navbar style */
+.main {
+  grid-area: main;
+}
+.contacts {
+  grid-area: contacts;
+}
+.skills {
+  grid-area: skills;
+}
+.Language {
+  grid-area: Language;
+}
+.refrences {
+  grid-area: refrences;
+}
+.about {
+  grid-area: about;
+}
+.experiense {
+  grid-area: experiense;
+}
+.education {
+  grid-area: education;
+}
+.code {
+  grid-area: code;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 280px 560px;
+
+  column-gap: 60px;
+  grid-template-areas:
+    "main about"
+    "contacts experiense"
+    "skills education"
+    "language code"
+    "refrences code";
+}
+/* grid template */
+.main {
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+  background-color: #174180;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-avatar {
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.user-name {
+  font-weight: 600;
+  font-size: 30px;
+}
+.user-status {
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+/* main*/
+.contacts {
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+  background-color: #174180;
+  color: #fff;
+}
+.section-title {
+  font-weight: 700;
+  font-size: 25px;
+  color: #174180;
+}
+.section-title--blue {
+  margin-left: 10px;
+  color: #56ccf2;
+}
+.contacts-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.contacts-item {
+  display: flex;
+  align-items: center;
+  color: #56ccf2;
+  font-size: 17px;
+}
+.contacts-link {
+  text-decoration: none;
+  color: inherit;
+}
+.logo-tg,
+.logo-ds,
+.logo-loc,
+.web-logo {
+  width: 30px;
+  margin: 10px;
+}
+/* contacts */
+.skills,
+.language,
+.refrences {
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+  background-color: #174180;
+  color: #fff;
+}
+.skills-list,
+.language-list {
+  list-style: none;
+  margin: 0;
+  margin-left: 10px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills-item,
+.language-item {
+  flex-basis: 50%;
+  margin-bottom: 10px;
+}
+/* skills & languages */
+.rsschool-logo,
+.github-logo {
+  height: 40px;
+}
+.references-grid {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.references-year {
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align: left;
+  display: block;
+  font-size: 17px;
+}
+/* references */
+.about,
+.experiense,
+.education,
+.code {
+  padding: 20px;
+  padding-right: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #4f4f4f;
+}
+.experiense--margin {
+  margin-top: -150px;
+}
+.education--margin {
+  margin-top: -280px;
+}
+.education-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+.education-step {
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.education-info {
+  font-size: 18px;
+}
+.education-years {
+  width: 20%;
+  font-weight: 700;
+  font-size: 20px;
+}
+.bakalavr {
+  width: 65%;
+  margin-bottom: 25px;
+}
+.magistry {
+  width: 65%;
+  margin-bottom: 25px;
+}
+.code--margin {
+  margin-top: -200px;
+}
+/* main styles */
+@media (max-width: 930px) {
+  .cv-list {
+    max-width: 90%;
+  }
+  .container {
+    max-width: 90%;
+    margin: auto;
+  }
+  .main-flex {
+    width: 100%;
+    padding-top: 40px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar {
+    display: none;
+  }
+  .main,
+  .contacts,
+  .skills,
+  .language,
+  .refrences,
+  .about,
+  .experiense,
+  .education,
+  .code {
+    padding: 0;
+    padding-bottom: 20px;
+  }
+  .experiense--margin,
+  .education--margin,
+  .code--margin {
+    margin: 0;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 930px) {
+  .code {
+    display: none;
+  }
+}
